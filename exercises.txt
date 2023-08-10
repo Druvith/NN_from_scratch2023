@@ -1,0 +1,10 @@
+Exercises : ( Q and A format)
+
+1. Why is the second derivative much more expensive to compute than the first derivative?
+
+A: The second derivative, also known as the Hessian, describes the curvature of the loss function. It's a matrix that contains all possible second-order partial derivatives. Hessain's matrix will have squared elements, of the number of parameters.
+
+2.After running the function for backpropagation, immediately run it again and see what happens. Why?
+A: Because pyTorch destroys the graph, which you've called while calling .backwards() inorder to save memory for futhur computation. Inorder to solve this issue we can add (retain_graph = True) for the first called backward pass.
+
+3.
