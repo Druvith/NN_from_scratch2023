@@ -7,4 +7,9 @@ A: The second derivative, also known as the Hessian, describes the curvature of 
 2.After running the function for backpropagation, immediately run it again and see what happens. Why?
 A: Because pyTorch destroys the graph, which you've called while calling .backwards() inorder to save memory for futhur computation. Inorder to solve this issue we can add (retain_graph = True) for the first called backward pass.
 
-3.
+3.In the control flow example where we calculate the derivative of d with respect to a, what would happen if we changed the variable a to a random vector or a matrix? At this point, the result of the calculation f(a) is no longer a scalar. What happens to the result? How do we analyze this?
+A: Only scalars could be calculated. (Since the final result 
+�
+d is a vector, calling d.backward() directly will result in a runtime error: "grad can be implicitly created only for scalar outputs."
+
+To compute the gradient, you must first reduce the output to a scalar. You can do this by taking the sum, mean, or dot product with another vector, depending on what you want the gradient to represent.)
