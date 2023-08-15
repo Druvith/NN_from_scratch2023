@@ -1,0 +1,82 @@
+Derivative vs Gradient:
+
+A derivative is a single number that represents the rate of change of a function at a particular point. For example, the derivative of the function f(x) = x^2 at the point x = 2 is 4. This means that the function is increasing at a rate of 4 at the point x = 2.
+
+A gradient is a vector that represents the rate of change of a function in all directions. The gradient of the function f(x, y) = x^2 + y^2 at the point (2, 2) is the vector <4, 4>. This means that the function is increasing at a rate of 4 in the x-direction and at a rate of 4 in the y-direction at the point (2, 2).
+
+
+Workflow:
+1.The data that we can learn from.
+
+2.A model of how to transform the data.
+
+3.An objective function that quantifies how well (or badly) the model is doing.
+
+4.An algorithm to adjust the model’s parameters to optimize the objective function	
+
+--garbage in, garbage out
+
+--A good rule of thumb is that any how much? or how many? problem should suggest regression
+
+
+RL: 
+  	Policy: a policy is just a function that maps from observations of the environment to actions. The goal of reinforcement learning is to produce good policies.
+  	
+Turing test:  Turing posed the question “can machines think?” in his famous paper Computing Machinery and Intelligence (Turing, 1950).
+
+a machine can be considered intelligent if it is difficult for a human evaluator to distinguish between the replies from a machine and a human based on textual interactions.
+
+Father of nueral nets: Donald Hebb (work - Organisation of behaviour) 
+
+Key Points of Broadcasting:
+
+Dimension Expansion: If two tensors have a different number of dimensions, the shape of the one with fewer dimensions is padded with ones on its left side.
+
+Example: If you have a tensor 
+�
+A of shape (5, 4) and another tensor 
+�
+B of shape (4,), 
+�
+B is considered of shape (1, 4) for the operation.
+
+Size Matching: If the size of one of the dimensions does not match, the tensor with size 1 in that dimension is stretched to match the other shape.
+
+Example: For 
+�
+A of shape (5, 4) and 
+�
+B of shape (1, 4), 
+�
+B will be broadcasted to shape (5, 4).
+
+Incompatibility: If in any dimension the sizes are different and neither is 1, an error is raised because they are incompatible for broadcasting.
+
+Example: Tensors of shape (3, 4) and (5, 4) are incompatible.
+
+Comma seperated values (CSV) 		
+
+Calculus is how to increase or decrease a function value by manipulating its arguments
+
+
+these basics: (i) attach gradients to those variables with respect to which we desire derivatives; (ii) record the computation of the target value; (iii) execute the backpropagation function; and (iv) access the resulting gradient.
+
+ Bayesian probability is characterized by two unique features: (i) assigning degrees of belief to non-repeatable events, e.g., what is the probability that the moon is made out of cheese?; and (ii) subjectivity—while Bayesian probability provides unambiguous rules for how one should update their beliefs in light of new evidence, it allows for different individuals to start off with different prior beliefs. 
+ 
+ 1.Law of large numbers: Here's the pertinent information:
+
+Weak Law of Large Numbers (WLLN): The sample average converges in probability to the expected value as the number of observations grows to infinity.
+
+Strong Law of Large Numbers (SLLN): The sample average almost surely converges to the expected value as the number of observations grows to infinity.
+
+ 2. Central limit theorem	
+ 
+Bayes theorem: P(H|E) = (P(E|H)P(H)/P(E)) posterior equals prior time likelihood, divided by the evidence.
+
+
+Aleatoric uncertainity
+epistemic uncertainity
+
+wikipedia: Uncertainity quantification (https://en.wikipedia.org/wiki/Uncertainty_quantification)
+ 	   Chebyshev's
+
