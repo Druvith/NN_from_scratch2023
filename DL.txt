@@ -72,11 +72,21 @@ Strong Law of Large Numbers (SLLN): The sample average almost surely converges t
  2. Central limit theorem	
  
 Bayes theorem: P(H|E) = (P(E|H)P(H)/P(E)) posterior equals prior time likelihood, divided by the evidence.
-
+ 
 
 Aleatoric uncertainity
 epistemic uncertainity
 
 wikipedia: Uncertainity quantification (https://en.wikipedia.org/wiki/Uncertainty_quantification)
- 	   Chebyshev's
+ 	   Chebyshev's inequality
+ 	   
+LINEAR REGRESSION:
+
+#linearity : expected value of target can be expressed as weighted sum of features 
+
+^ : denotes estimate value
+
+mini batch SGD: In summary, minibatch SGD proceeds as follows: (i) initialize the values of the model parameters, typically at random; (ii) iteratively sample random minibatches from the data, updating the parameters in the direction of the negative gradient. For quadratic losses and affine transformations, this has a closed-form expansion:
+
+common loss function for regression is squared error
 
