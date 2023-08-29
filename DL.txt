@@ -89,4 +89,9 @@ LINEAR REGRESSION:
 mini batch SGD: In summary, minibatch SGD proceeds as follows: (i) initialize the values of the model parameters, typically at random; (ii) iteratively sample random minibatches from the data, updating the parameters in the direction of the negative gradient. For quadratic losses and affine transformations, this has a closed-form expansion:
 
 common loss function for regression is squared error
+generalization error is a measure of how accurately an algorithm is able to predict outcome values for previously unseen data.
+
+The L1 norm that is calculated as the sum of the absolute values of the vector.
+The L2 norm that is calculated as the square root of the sum of the squared vector values.
+The max norm that is calculated as the maximum vector values
 

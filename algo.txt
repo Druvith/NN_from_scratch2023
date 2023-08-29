@@ -1,0 +1,8 @@
+creating a largest plaindrome using 2 3 digit numbers:
+
+steps:
+1. Write a function to check whether a number is a plaindrome
+2.iterate through all the two 3 digit numbers in dec order
+3. return if a product is palindrome and is the largest one
+
+
