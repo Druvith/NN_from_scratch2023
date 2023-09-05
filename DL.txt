@@ -95,3 +95,14 @@ The L1 norm that is calculated as the sum of the absolute values of the vector.
 The L2 norm that is calculated as the square root of the sum of the squared vector values.
 The max norm that is calculated as the maximum vector values
 
+types of distribuition shift:
+1.label shift
+2. covariance shift
+3. concept shift
+
+MULTI LAYER PERCEPTRON (MLP)
+
+Initialisation:
+Xavier initialisation: limit : only for sigmoid or tanh activations 
+	- used to diminish the vanishing and exploding gradients problem
+	
