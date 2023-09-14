@@ -106,3 +106,8 @@ Initialisation:
 Xavier initialisation: limit : only for sigmoid or tanh activations 
 	- used to diminish the vanishing and exploding gradients problem
 	
+	
+Dynamic networks: Used when you've inputs of varying dimensionality.
+
+during lazy initialization, unspecified dimension layers will be lazily initialised during forward pass.
+
