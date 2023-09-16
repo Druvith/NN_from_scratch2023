@@ -78,7 +78,7 @@ Aleatoric uncertainity
 epistemic uncertainity
 
 wikipedia: Uncertainity quantification (https://en.wikipedia.org/wiki/Uncertainty_quantification)
- 	   Chebyshev's inequality
+ 	   Chebyshev's inequality: within 2 two std from the mean we contain 75% of the value, within 3 std's we contain 88.9% of the values.
  	   
 LINEAR REGRESSION:
 
@@ -111,6 +111,7 @@ Dynamic networks: Used when you've inputs of varying dimensionality.
 
 during lazy initialization, unspecified dimension layers will be lazily initialised during forward pass.
 
+INTIALISATION, NORMALISATION AND REGULARISATION ARE DIFFERENT THINGS!!!!!
 
 CNN!!!!!!
 
