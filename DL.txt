@@ -111,3 +111,11 @@ Dynamic networks: Used when you've inputs of varying dimensionality.
 
 during lazy initialization, unspecified dimension layers will be lazily initialised during forward pass.
 
+
+CNN!!!!!!
+
+intial layers: assigning scores to each path, regardless of the location. Translational invariance..
+
+intial layers should focus more on local regions in the image. Locality principle.
+
+deeper layers should be able to capture longer-range features of the image.
