@@ -4,3 +4,14 @@ LINKS AND PAPERS (DEEP LEARNING AND MATH INVOLVED):
 Backpropagation:
 
 -https://zhang-yang.medium.com/the-gradient-argument-in-pytorchs-backward-function-explained-by-examples-68f266950c29
+
+wabel et al : Time delay neural networks
+https://www.cs.toronto.edu/~hinton/absps/waibelTDNN.pdf
+
+Neural probablistic neural networks.
+
+paper about learning rates.
+
+Dropout ( Srivastva et al)
+
+lin et al 2013 (network in network arch)
