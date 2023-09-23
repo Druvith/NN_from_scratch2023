@@ -120,3 +120,17 @@ intial layers: assigning scores to each path, regardless of the location. Transl
 intial layers should focus more on local regions in the image. Locality principle.
 
 deeper layers should be able to capture longer-range features of the image.
+
+in cnns no. of paramters is of the order 4 X 10^6.
+
+V is filter, convolutional kernel, weights.
+
+
+Deep CNNSS:
+
+AlexNet (krizhevsky et al)
+
+1.eight layers
+2. 5 conv layers, 2 hidden layers, 1 output layer
+3. uses ReLU instead of sigmoid.
+
