@@ -139,3 +139,8 @@ AlexNet (krizhevsky et al)
 
 -Deep net with small filters outperforms shallow net with large filters. (Scale Jittering)
 
+Dropout:
+1. Preprocessing
+2. Numerical stability
+3. regularisation
+
