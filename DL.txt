@@ -139,8 +139,56 @@ AlexNet (krizhevsky et al)
 
 -Deep net with small filters outperforms shallow net with large filters. (Scale Jittering)
 
+Batch Normalisation:
+1. Preprocessing
+2. Numerical stabilty
+3. regularisation
+
+various noises in optimisation often lead to faster training and less over-fitting
+
+
 Dropout:
 1. Preprocessing
 2. Numerical stability
 3. regularisation
+
+
+RESNET: The idea of the resnet is that the every additional layer should more easily contain the indenity function as one of its elements.
+
+DenseNet: Concatenating the blocks instead of adding
+
+main components of dense net :
+1. Dense Blocks: defines how inputs and outputs are concat'ed
+2. Transition layers: conttols the number of channels, so that it's not too large.
+
+Neural architecture search (NAS)
+network design principles Radosavovic et al (2020)
+
+
+Anynet:
+1. Stem
+2. Body
+3. Head
+
+RNN (Recurrent neural networks)
+
+Sequential models: Predicting sequentially structured outputs based on sequentially structured inputs.
+
+1. Unaligned 
+2. Aligned
+
+Unsupervised density modelling (sequence modelling)
+
+probablity mass function: how likely we're going to see the sequence. P(x1, x2, x3, x4, .... xN)
+
+Autoregressive models:  Such models, the regress the values of the signals on previous values of the same signals.
+
+Latent auto-regressive models: mantinining a summary h of the previous observations, which is updated after each prediction of xt. 
+
+Sequence modelling for language data is called language model
+
+the model is said to satisfy markov's condition if we throw away the histoy beoynd t time steps without any loss in the predictive power.
+
+"the future is conditionally independent of the past given it's recent history."
+
 
