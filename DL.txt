@@ -200,3 +200,11 @@ Zip's law states that the frequency n. of the ith more frequent word is:
 
 log(n) = -alog(i) + c
 
+inorder to compute LM, we need to calculate the probablity of words and conditional probablity of a words given the previous words.
+
+Laplace smoothning.
+
+Perplexity: measure of quality of the language model.
+
+discarding a random number of tokens at the begining of each epoch leads to more robust training.
+
