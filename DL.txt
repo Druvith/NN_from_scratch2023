@@ -208,3 +208,7 @@ Perplexity: measure of quality of the language model.
 
 discarding a random number of tokens at the begining of each epoch leads to more robust training.
 
+latent variable model h(t - 1)
+
+Neural networks with hidden states based on recurrent computation are called recurrent neural networks.
+
