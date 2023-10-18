@@ -198,7 +198,7 @@ Freq of words tend to follow a power law distribution as we go down the ranks. (
 
 Zip's law states that the frequency n. of the ith more frequent word is:
 
-log(n) = -alog(i) + c
+log(n) = -alog(i) + c zip's law
 
 inorder to compute LM, we need to calculate the probablity of words and conditional probablity of a words given the previous words.
 
