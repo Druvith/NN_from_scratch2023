@@ -212,3 +212,5 @@ latent variable model h(t - 1)
 
 Neural networks with hidden states based on recurrent computation are called recurrent neural networks.
 
+backprop through time in RNNs
+
