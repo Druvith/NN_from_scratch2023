@@ -214,3 +214,18 @@ Neural networks with hidden states based on recurrent computation are called rec
 
 backprop through time in RNNs
 
+LSTM (long term short term memory)
+
+Long term memory are stored in the weight, short term memory are stored in the activations.
+
+Memory cells (interconnection of nodes)
+
+internal states: 
+1. Wether the input should impact internal gate.
+2. wether the internal state should be flushed to 0.
+3. wether the internal state should impact the outputs.
+
+Ct = (Ft (e) Ct-1) + (It (e) Ct)
+
+Ht = Ot (e) tanh(Ct)
+
