@@ -229,3 +229,9 @@ Ct = (Ft (e) Ct-1) + (It (e) Ct)
 
 Ht = Ot (e) tanh(Ct)
 
+
+Grated recurrent units (GRU)
+
+reset gate: how much of the previous state we still want to recover (short-term)
+
+update gate: how much of the new state is just a copy of the old one.(long-term)
