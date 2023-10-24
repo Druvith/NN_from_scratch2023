@@ -235,3 +235,11 @@ Grated recurrent units (GRU)
 reset gate: how much of the previous state we still want to recover (short-term)
 
 update gate: how much of the new state is just a copy of the old one.(long-term)
+
+Bi-directional recurrent neural networks:
+
+takes context of both the directions. (Ex: Fill in the blanks)
+
+ARCHITECTURE:
+
+1. Two simply uni-directional RNN chained in opposite direction. (inputs x1 for the first layer, inputs xT for the second layer)
