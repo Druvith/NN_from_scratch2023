@@ -243,3 +243,17 @@ takes context of both the directions. (Ex: Fill in the blanks)
 ARCHITECTURE:
 
 1. Two simply uni-directional RNN chained in opposite direction. (inputs x1 for the first layer, inputs xT for the second layer)
+
+
+
+Seq2Seq for machine traslation, Eng2Fra
+
+text(English) -> Encoder -> Decoder -> French
+
+Teacher forcing
+
+Encoder :
+
+1. Embedding layer (vocab_size, feature vector dimension)
+2. GRU for encoder.
+
