@@ -257,3 +257,6 @@ Encoder :
 1. Embedding layer (vocab_size, feature vector dimension)
 2. GRU for encoder.
 
+
+Training seq2seq machine translation, mask the padding tokens with 0.
+
